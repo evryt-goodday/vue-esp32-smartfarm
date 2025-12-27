@@ -1,22 +1,20 @@
 {
-  "name": "backend",
+  "name": "smartfarm-backend",
   "version": "1.0.0",
+  "description": "Smart Farm Backend API",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js",
-		"dev": "nodemon app.js"
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "body-parser": "^2.2.1",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "mariadb": "^3.4.5",
-    "socket.io": "^4.8.3"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mariadb": "^3.2.3",
+    "socket.io": "^4.7.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
